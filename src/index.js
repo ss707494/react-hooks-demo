@@ -1,3 +1,5 @@
+import '@/common/global'
+import '@/common/plugins'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
