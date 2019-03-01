@@ -17,6 +17,7 @@ const request = (operation) => {
     headers: {
       ...headers,
       Authorization: getToken(),
+      refresh_token: getToken('refresh_token'),
     }
   }));
 }

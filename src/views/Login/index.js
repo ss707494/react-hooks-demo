@@ -58,6 +58,7 @@ function SignIn(props) {
     const { data: res } = await api.login(data)
     if (res.data) {
       setToken(res.token)
+      setToken(res.refreshToken, 'refresh_token')
       showMessage({ open: true, message: res.message })
       history.push('/')
     } else {

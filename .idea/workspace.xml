@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18b73184-7c16-4ef6-8cc9-f680bfa41657" name="Default Changelist" comment="feat: graphql 文件插件">
-      <change afterPath="$PROJECT_DIR$/graphql.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/context/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ApolloQuery/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gql/gel.schema.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gql/user.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/TestHooks/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/TestHooks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/User/List/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/User/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react-hooks-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-hooks-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routers.js" afterDir="false" />
+    <list default="true" id="18b73184-7c16-4ef6-8cc9-f680bfa41657" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/common/apolloCLient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/apolloCLient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/token.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ApolloQuery/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ApolloQuery/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,10 +25,13 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+            <entry file="file://$PROJECT_DIR$/src/common/apolloCLient.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+                <state relative-caret-position="396">
+                  <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -74,6 +62,9 @@
       <find>wrapperContext</find>
       <find>useCustomContext</find>
       <find>getcode</find>
+      <find>token</find>
+      <find>getToken</find>
+      <find>setToken</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,19 +82,20 @@
         <option value="$PROJECT_DIR$/src/gql/user.gql" />
         <option value="$PROJECT_DIR$/config-overrides.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/common/apolloCLient.js" />
         <option value="$PROJECT_DIR$/src/common/context/index.js" />
         <option value="$PROJECT_DIR$/graphql.schema.json" />
         <option value="$PROJECT_DIR$/src/gql/gel.schema.graphql" />
         <option value="$PROJECT_DIR$/graphql.config.json" />
         <option value="$PROJECT_DIR$/src/gql/user.graphql" />
-        <option value="$PROJECT_DIR$/src/component/ApolloQuery/index.js" />
         <option value="$PROJECT_DIR$/src/views/Home/index.js" />
         <option value="$PROJECT_DIR$/src/Routers.js" />
         <option value="$PROJECT_DIR$/src/views/TestHooks/index.js" />
         <option value="$PROJECT_DIR$/src/views/User/List/index.js" />
-        <option value="$PROJECT_DIR$/src/views/Login/index.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/component/ApolloQuery/index.js" />
+        <option value="$PROJECT_DIR$/src/common/token.js" />
+        <option value="$PROJECT_DIR$/src/views/Login/index.js" />
+        <option value="$PROJECT_DIR$/src/common/apolloCLient.js" />
       </list>
     </option>
   </component>
@@ -168,6 +160,18 @@
               <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -182,6 +186,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -299,7 +310,7 @@
       <workItem from="1551255121513" duration="597000" />
       <workItem from="1551257818174" duration="1633000" />
       <workItem from="1551259477004" duration="4106000" />
-      <workItem from="1551316067212" duration="12132000" />
+      <workItem from="1551316067212" duration="19104000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加用户登录">
       <created>1550730984098</created>
@@ -308,11 +319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550730984098</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: graphql 文件插件">
+      <created>1551420052493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551420052493</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92254000" />
+    <option name="totallyTimeSpent" value="99226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1862" height="1096" extended-state="6" />
@@ -333,7 +351,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32928064" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32928064" />
       <window_info anchor="bottom" id="GraphQL" order="12" weight="0.41438702" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -351,12 +369,12 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32928064" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32117528" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32117528" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39918947" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32928064" />
       <window_info anchor="bottom" id="GraphQL" order="12" weight="0.41438702" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -552,16 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/apolloCLient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/context/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -599,16 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ApolloQuery/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Home/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -616,13 +614,6 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -636,33 +627,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/User/List/index.js">
+    <entry file="file://$PROJECT_DIR$/.eslintrc.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="297">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ApolloQuery/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/List/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/history.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Routers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/login.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Login/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        <state relative-caret-position="476">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/src/common/apolloCLient.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="396">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
