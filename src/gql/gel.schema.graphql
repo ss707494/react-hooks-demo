@@ -1,0 +1,25 @@
+type User {
+    id: String
+    name: String
+    auth: String
+    message: String
+}
+
+input UserInput {
+    id: String
+    name: String
+    auth: String
+    message: String
+}
+
+type Query {
+    user: [User]
+    allUser: [User]
+    oneUser(id: String!): User
+}
+
+type Mutation {
+    updateUser(user: UserInput!): User
+    updateUserAuth(id: String!, auth: String!): String
+    addUser(user: UserInput!): User
+}

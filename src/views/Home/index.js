@@ -1,26 +1,27 @@
-import React, { useState, useEffect } from 'react'
-import { Query } from 'react-apollo'
-import gql from 'graphql-tag'
+import React from 'react'
+import { Redirect } from 'react-router-dom'
+import { WrapperQuery } from '@/component/ApolloQuery'
+import { allUser } from '@/gql/user.graphql'
 
-export default () => {
-  return (
-      <Query query={gql`
-        {
-          allUser {
-            name
-            id
-          }
-        }
-      `}>
-        {({ loading, error, data }) => {
-          if (loading) return <p>Loading...</p>;
-          if (error) return <p>Error :(</p>;
-          return data.allUser.map(({ name, id }) => (
-              <div key={id}>
-                <p>{id}: {name}</p>
-              </div>
-          ));
-        }}
-      </Query>
-  )
+const Home = () => {
+  return WrapperQuery(allUser)(data =>
+      data.user.map(({ name, id }) => (
+          <div key={id}>
+            <p>{id}: {name}</p>
+          </div>
+      )))
 }
+
+export default [{
+  props: {
+    exact: true,
+    from: "/",
+    to: "/user/list",
+  },
+  Type: Redirect
+}, {
+  props: {
+    path: '/home',
+    component: Home,
+  }
+}]

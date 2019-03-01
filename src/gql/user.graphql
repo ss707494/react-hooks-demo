@@ -1,0 +1,29 @@
+fragment userF on User {
+    id
+    name
+    auth
+    message
+}
+
+mutation updateUserAuth($id: String!, $auth: String!){
+    updateUserAuth(id: $id, auth: $auth)
+}
+
+mutation updateUser($user: UserInput!){
+    updateUser(user: $user) {
+        ... userF
+    }
+}
+
+query oneUser($id: String!){
+    oneUser(id: $id) {
+        ... userF
+    }
+}
+
+query allUser{
+    user {
+        ... userF
+    }
+}
+

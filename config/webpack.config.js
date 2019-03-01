@@ -1,4 +1,3 @@
-'use strict';
 
 const fs = require('fs');
 const path = require('path');
@@ -324,6 +323,11 @@ module.exports = function(webpackEnv) {
                 limit: 10000,
                 name: 'static/media/[name].[hash:8].[ext]',
               },
+            },
+            {
+              test: /\.(graphql|gql)$/,
+              exclude: /node_modules/,
+              loader: 'graphql-tag/loader',
             },
             // Process application JS with Babel.
             // The preset includes JSX, Flow, TypeScript, and some ESnext features.

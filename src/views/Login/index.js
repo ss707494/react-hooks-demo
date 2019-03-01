@@ -59,7 +59,7 @@ function SignIn(props) {
     if (res.data) {
       setToken(res.token)
       showMessage({ open: true, message: res.message })
-      history.push('home')
+      history.push('/')
     } else {
       showMessage({ open: true, message: res.message })
     }
@@ -86,7 +86,6 @@ function SignIn(props) {
               <Input id="email"
                      name="email"
                      autoComplete="email"
-                     autoFocus
                      value={name}
                      onChange={e => setName(e.target.value)}
               />
@@ -127,5 +126,9 @@ SignIn.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(SignIn)
-
+export default {
+  props: {
+    path: '/login',
+    component: withStyles(styles)(SignIn),
+  },
+}
