@@ -14,17 +14,17 @@ import DialogTitle from "@material-ui/core/es/DialogTitle/DialogTitle";
 import DialogActions from "@material-ui/core/es/DialogActions/DialogActions";
 import DialogContent from "@material-ui/core/es/DialogContent/DialogContent";
 import TextField from "@material-ui/core/es/TextField/TextField";
-import { updateUser, allUser, oneUser } from '@/gql/user.graphql'
+import { updateUser, allUser } from '@/gql/user.graphql'
 import { useCustomContext } from '@/common/context'
 
 const { useState } = React
 
 const TableSection = styled(Paper)`
-  margin: 10px;
+  //margin: 10px;
 `
 
-export const UserList = () => {
-  const [{ client }] = useCustomContext()
+export const UserList = p => {
+  const [{ showMessage }] = useCustomContext()
   const [showEdit, setShowEdit] = useState(false)
   const [editData, setEditData] = useState({})
   const setEdit = (data) => setEditData({ ...editData, ...data })
@@ -32,19 +32,16 @@ export const UserList = () => {
     setEditData(item)
     setShowEdit(true)
   }
-  const addClick = () => () => {
-    setEditData({})
-    setShowEdit(true)
-  }
   const test = (item) => async () => {
-    console.log(item)
-    const res = await client.query({
-      query: oneUser,
-      variables: {
-        id: item.id
-      }
-    })
-    console.log(res)
+    // console.log(item)
+    showMessage({ message: '请重新登录' })
+    // const res = await client.query({
+    //   query: oneUser,
+    //   variables: {
+    //     id: item.id
+    //   }
+    // })
+    // console.log(res)
   }
   const editType = ['name', 'auth', 'message']
   const columns = [{
@@ -60,7 +57,7 @@ export const UserList = () => {
     <TableSection>
       <header>
         <Button variant="outlined"
-                onClick={addClick()}
+                onClick={editClick({})}
         >add</Button>
       </header>
       <Table>

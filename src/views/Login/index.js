@@ -12,9 +12,8 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
-import api from '@/api'
-import { setToken } from '@/common/token'
-import { showMessage } from '@/component/Message'
+import { BasicLayout } from '@/component/BasicLayout'
+import { login } from '@/common/login'
 
 const styles = theme => ({
   main: {
@@ -54,15 +53,9 @@ function SignIn(props) {
   const [name, setName] = useState('admin')
   const [password, setPassword] = useState('123456')
 
-  const submit = async (data) => {
-    const { data: res } = await api.login(data)
-    if (res.data) {
-      setToken(res.token)
-      setToken(res.refreshToken, 'refresh_token')
-      showMessage({ open: true, message: res.message })
+  const submit = async data => {
+    if (await login(data)) {
       history.push('/')
-    } else {
-      showMessage({ open: true, message: res.message })
     }
   }
 
@@ -125,11 +118,12 @@ function SignIn(props) {
 
 SignIn.propTypes = {
   classes: PropTypes.object.isRequired,
-};
+}
 
 export default {
   props: {
     path: '/login',
     component: withStyles(styles)(SignIn),
   },
+  Layout: BasicLayout
 }

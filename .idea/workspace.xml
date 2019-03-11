@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18b73184-7c16-4ef6-8cc9-f680bfa41657" name="Default Changelist" comment="">
+    <list default="true" id="18b73184-7c16-4ef6-8cc9-f680bfa41657" name="Default Changelist" comment="feat: token 持续刷新">
+      <change afterPath="$PROJECT_DIR$/src/common/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/BasicLayout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/BasicLayout/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/MenuLayout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/MenuLayout/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/graphql.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apollo/demo.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/apolloCLient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/apolloCLient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/token.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ApolloQuery/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ApolloQuery/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/context/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/context/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Message/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Message/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gql/gel.schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/demo1.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/TestHooks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TestHooks/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/User/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/User/List/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/User/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/User/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,10 +42,10 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/common/apolloCLient.js">
+            <entry file="file://$PROJECT_DIR$/src/views/User/List/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+                <state relative-caret-position="165">
+                  <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
@@ -41,10 +58,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/gql/user.graphql">
+            <entry file="file://$PROJECT_DIR$/node_modules/history/es/createBrowserHistory.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+                <state relative-caret-position="328">
+                  <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -60,12 +77,27 @@
       <find>home</find>
       <find>history.push('home')</find>
       <find>wrapperContext</find>
-      <find>useCustomContext</find>
       <find>getcode</find>
       <find>token</find>
       <find>getToken</find>
       <find>setToken</find>
+      <find>demo</find>
+      <find>kook</find>
+      <find>hooks</find>
+      <find>省得浪费空间水电费</find>
+      <find>Style</find>
+      <find>useCustomContext</find>
+      <find>showMessage</find>
+      <find>useCustomContext()</find>
+      <find>CreateMessageObj</find>
+      <find>showMessage('</find>
+      <find>showMessage(</find>
+      <find>let</find>
+      <find>testhoo</find>
     </findStrings>
+    <replaceStrings>
+      <replace>S</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,25 +109,30 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/views/TestHooks/demo.js" />
-        <option value="$PROJECT_DIR$/src/views/User/index.js" />
-        <option value="$PROJECT_DIR$/src/views/index.js" />
         <option value="$PROJECT_DIR$/src/gql/user.gql" />
         <option value="$PROJECT_DIR$/config-overrides.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/common/context/index.js" />
         <option value="$PROJECT_DIR$/graphql.schema.json" />
         <option value="$PROJECT_DIR$/src/gql/gel.schema.graphql" />
-        <option value="$PROJECT_DIR$/graphql.config.json" />
-        <option value="$PROJECT_DIR$/src/gql/user.graphql" />
         <option value="$PROJECT_DIR$/src/views/Home/index.js" />
-        <option value="$PROJECT_DIR$/src/Routers.js" />
-        <option value="$PROJECT_DIR$/src/views/TestHooks/index.js" />
-        <option value="$PROJECT_DIR$/src/views/User/List/index.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/component/ApolloQuery/index.js" />
         <option value="$PROJECT_DIR$/src/common/token.js" />
+        <option value="$PROJECT_DIR$/graphql.config.json" />
+        <option value="$PROJECT_DIR$/src/gql/user.graphql" />
+        <option value="$PROJECT_DIR$/src/views/TestHooks/index.js" />
+        <option value="$PROJECT_DIR$/src/views/User/index.js" />
+        <option value="$PROJECT_DIR$/src/common/login.js" />
+        <option value="$PROJECT_DIR$/src/views/index.js" />
         <option value="$PROJECT_DIR$/src/views/Login/index.js" />
+        <option value="$PROJECT_DIR$/src/component/BasicLayout/index.js" />
+        <option value="$PROJECT_DIR$/src/component/MenuLayout/style.js" />
+        <option value="$PROJECT_DIR$/src/component/MenuLayout/index.js" />
+        <option value="$PROJECT_DIR$/src/common/context/index.js" />
+        <option value="$PROJECT_DIR$/src/Routers.js" />
         <option value="$PROJECT_DIR$/src/common/apolloCLient.js" />
+        <option value="$PROJECT_DIR$/src/component/Message/index.js" />
+        <option value="$PROJECT_DIR$/src/views/User/List/index.js" />
       </list>
     </option>
   </component>
@@ -138,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,19 +190,105 @@
             <path>
               <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@material-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@material-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@material-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="Box" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-router-dom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-router-dom" type="462c0819:PsiDirectoryNode" />
+              <item name="es" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="ApolloQuery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="BasicLayout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuLayout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="Message" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -199,6 +321,13 @@
               <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="TestHooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="User" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -209,19 +338,24 @@
               <item name="User" type="462c0819:PsiDirectoryNode" />
               <item name="List" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphQL Schemas" type="390a5855:JSGraphQLSchemaDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="disabled" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.lang.jsgraphql.ide.injection.JSGraphQLLanguageInjectionUtil.gql" value="apollo" />
+    <property name="ejs.close.delimiter" value="%&gt;" />
+    <property name="ejs.open.delimiter" value="&lt;%" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.8.0" />
     <property name="jsgraphql-schema-editor-notification" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -240,14 +374,15 @@
     <property name="nodejs_package_manager_path" value="$USER_HOME$/AppData/Roaming/npm/node_modules/yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\ss_code\react-hooks-demo\node_modules\prettier" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\ss_code\react-hooks-demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ss_code\react-hooks-demo\src\component" />
       <recent name="E:\ss_code\react-hooks-demo\src\views\User" />
     </key>
   </component>
@@ -310,7 +445,16 @@
       <workItem from="1551255121513" duration="597000" />
       <workItem from="1551257818174" duration="1633000" />
       <workItem from="1551259477004" duration="4106000" />
-      <workItem from="1551316067212" duration="19104000" />
+      <workItem from="1551316067212" duration="19295000" />
+      <workItem from="1551662346368" duration="597000" />
+      <workItem from="1551665347367" duration="14000" />
+      <workItem from="1551873348570" duration="4616000" />
+      <workItem from="1551925562739" duration="13655000" />
+      <workItem from="1551953632042" duration="584000" />
+      <workItem from="1551957004252" duration="7002000" />
+      <workItem from="1552015437762" duration="16826000" />
+      <workItem from="1552144226002" duration="1682000" />
+      <workItem from="1552146135649" duration="15871000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加用户登录">
       <created>1550730984098</created>
@@ -326,11 +470,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551420052493</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: token 持续刷新">
+      <created>1551435072133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551435072133</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99226000" />
+    <option name="totallyTimeSpent" value="160264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1862" height="1096" extended-state="6" />
@@ -341,12 +492,12 @@
       <window_info content_ui="combo" id="Project" order="2" type="SLIDING" weight="0.15763813" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.24972253" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32928064" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.8135765" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32928064" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32117528" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.4326241" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39918947" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -357,6 +508,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.3299025" />
     </layout>
     <layout-to-restore>
       <window_info id="npm" order="0" side_tool="true" weight="0.32963374" />
@@ -364,22 +516,23 @@
       <window_info content_ui="combo" id="Project" order="2" type="SLIDING" weight="0.15763813" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.24972253" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32928064" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.8135765" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32928064" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32117528" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.4326241" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39918947" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32928064" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32928064" />
       <window_info anchor="bottom" id="GraphQL" order="12" weight="0.41438702" />
       <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.3299025" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,98 +541,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 添加用户登录" />
     <MESSAGE value="feat: graphql 文件插件" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: graphql 文件插件" />
+    <MESSAGE value="feat: token 持续刷新" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: token 持续刷新" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/react/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="1456" column="23" selection-start-line="1456" selection-start-column="23" selection-end-line="1456" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/eslint-config-react-app/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="248" selection-start-line="248" selection-end-line="248" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hooks/demo1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/apollo/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Message/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/TableRow/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/TableRow/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/TableRow/TableRow.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/TableRow/TableRow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="130" column="4" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Button/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Button/Button.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -504,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/TestHooks/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-overrides.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/apollo-boost/lib/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -526,23 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/apollo-client/ApolloClient.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/apollo-client/core/watchQueryOptions.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -550,125 +591,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/User/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/context/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphql.schema.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gql/gel.schema.graphql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphql.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gql/user.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/TestHooks/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql.schema.json" />
     <entry file="file://$PROJECT_DIR$/.eslintrc.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ApolloQuery/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/User/List/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/history.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/api/login.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -680,10 +605,254 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Login/index.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="327" column="24" selection-start-line="327" selection-start-column="24" selection-end-line="327" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gql/gel.schema.graphql" />
+    <entry file="file://$PROJECT_DIR$/src/gql/user.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apollo/demo.js" />
+    <entry file="file://$PROJECT_DIR$/config/paths.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/styled-components/dist/styled-components.esm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="2256" column="4" selection-start-line="2256" selection-start-column="4" selection-end-line="2256" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/es/Link.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/BasicLayout/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Box/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/system/compose.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Box/Box.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/TestHooks/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/global.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/BasicLayout/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/MenuLayout/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/context/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/MenuLayout/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-apollo/ApolloProvider.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/apollo-client/ApolloClient.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/apollo-link/lib/types.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/history/es/createBrowserHistory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="1855" column="2" selection-start-line="1855" selection-start-column="2" selection-end-line="1855" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/TestHooks/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/plugins/axios.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Routers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Message/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -692,8 +861,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/apolloCLient.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="792">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ApolloQuery/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/User/List/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

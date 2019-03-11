@@ -12,6 +12,7 @@ const TestHooks = props => {
         {con.w}
         <footer>
           <Demo1/>
+          {props.children}
         </footer>
       </div>
   );
@@ -20,6 +21,6 @@ const TestHooks = props => {
 export default {
   props: {
     path: '/testHooks',
-    component: TestHooks,
+    component: p => <TestHooks {...p}><div>sldkf</div></TestHooks>,
   },
 }

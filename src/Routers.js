@@ -6,17 +6,22 @@ import history from '@/common/history'
 import { routes } from '@/views'
 import { CreateMessageObj } from '@/component/Message'
 
-export default () => wrapperApollo(wrapperContext((
-    <>
-      <Router history={history}>
-        <Switch>
-          {routes}
-          <Route component={NoMatch}/>
-        </Switch>
-      </Router>
-      < CreateMessageObj/>
-    </>
-)))
+export default () => {
+  return [
+    wrapperContext,
+    wrapperApollo,
+  ].reduce((i, e) => e(i), (
+      <>
+        <Router history={history}>
+          <Switch>
+            {routes}
+            <Route component={NoMatch}/>
+          </Switch>
+        </Router>
+        <CreateMessageObj/>
+      </>
+  ))
+}
 
 const NoMatch = () => (
     <div>

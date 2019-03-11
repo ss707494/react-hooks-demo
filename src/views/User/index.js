@@ -1,3 +1,4 @@
+import React from 'react'
 import { Redirect } from 'react-router-dom'
 import { UserList } from './List'
 
@@ -7,7 +8,7 @@ export default [{
     from: "/user",
     to: "/user/list",
   },
-  Type: Redirect
+  Type: props => <Redirect {...props}/>
 },{
   props: {
     path: '/user/list',
