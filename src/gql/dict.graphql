@@ -1,0 +1,26 @@
+fragment dictF on Dict {
+    id
+    name
+    code
+    type
+    message
+}
+
+mutation updateDict($dict: DictInput!){
+    updateDict(dict: $dict) {
+        ... dictF
+    }
+}
+
+query oneDict($id: String!){
+    oneDict(id: $id) {
+        ... dictF
+    }
+}
+
+query allDict{
+    allDict {
+        ... dictF
+    }
+}
+

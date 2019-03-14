@@ -1,18 +1,17 @@
 import React from 'react'
 import loadable from '@loadable/component'
 import { Redirect } from 'react-router-dom'
-// import { UserList } from './List'
 
 export default [{
   props: {
     exact: true,
-    from: "/user",
-    to: "/user/list",
+    from: "/dict",
+    to: "/dict/list",
   },
   Type: props => <Redirect {...props}/>
 },{
   props: {
-    path: '/user/list',
+    path: '/dict/list',
     component: loadable(() => import('./List')),
   },
 }]

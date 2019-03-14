@@ -14,6 +14,9 @@ export const MenuLayout = ({history, children}) => {
             <MenuItem component={S.Link} to="/user">
               user
             </MenuItem>
+            <MenuItem component={S.Link} to="/dict">
+              dict
+            </MenuItem>
             <MenuItem component={S.Link} to="/testHooks">
               testHooks
             </MenuItem>
