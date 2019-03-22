@@ -3,13 +3,18 @@ fragment dictF on Dict {
     name
     code
     type
+    date
     message
 }
 
-mutation updateDict($dict: DictInput!){
-    updateDict(dict: $dict) {
+mutation updateDict($data: DictInput!){
+    updateDict(data: $data) {
         ... dictF
     }
+}
+
+mutation deleteOneDict($id: String!){
+    deleteOneDict(id: $id)
 }
 
 query oneDict($id: String!){

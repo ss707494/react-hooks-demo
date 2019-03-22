@@ -59,6 +59,7 @@
 
   var PRESET_CONFIG_KEYS = [
     'request',
+    'response',
     'uri',
     'credentials',
     'headers',

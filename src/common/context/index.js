@@ -1,4 +1,5 @@
 import React, { useState, useContext } from 'react'
+import merge from 'lodash/merge'
 
 export const context = React.createContext({})
 
@@ -11,14 +12,14 @@ export const wrapperContext = (el) => {
   })
 
   return (
-      <context.Provider value={[cont, (data) => setContext({
-        ...cont,
-        ...data,
-      })]}>
+      <context.Provider value={[cont, (data) => {
+        return setContext({
+          ...merge(cont, data)
+        });
+      }]}>
         {el}
       </context.Provider>
   )
-
 }
 
 export default {

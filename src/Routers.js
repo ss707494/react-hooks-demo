@@ -5,6 +5,7 @@ import { wrapperContext } from '@/common/context'
 import history from '@/common/history'
 import { routes } from '@/views'
 import { CreateMessageObj } from '@/component/Message'
+import { ConfirmDialog } from '@/component/ConfirmDialog'
 
 export default () => {
   return [
@@ -19,6 +20,7 @@ export default () => {
           </Switch>
         </Router>
         <CreateMessageObj/>
+        <ConfirmDialog />
       </>
   ))
 }

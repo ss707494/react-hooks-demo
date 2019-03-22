@@ -1,0 +1,31 @@
+
+fragment bookF on Book {
+    id
+    name
+    createDate
+    modifyDate
+    message
+}
+
+mutation updateBook($data: BookInput!){
+    updateBook(data: $data) {
+        ... bookF
+    }
+}
+
+mutation deleteOneBook($id: String!){
+    deleteOneBook(id: $id)
+}
+
+query oneBook($id: String!){
+    oneBook(id: $id) {
+        ... bookF
+    }
+}
+
+query allBook{
+    allBook {
+        ... bookF
+    }
+}
+

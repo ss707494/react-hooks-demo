@@ -1,35 +1,41 @@
-import React, { useState } from 'react'
+import React, { useEffect } from 'react'
 import Snackbar from '@material-ui/core/Snackbar'
 import { useCustomContext } from '@/common/context'
 
 export let showMessage = ({ message, open }) => {}
 
 export const CreateMessageObj = () => {
-  const [c, setC] = useCustomContext()
-
-  const [open, setOpen] = useState(false)
-  const [message, setMessage] = useState('')
+  const [{ message = {} }, setCon] = useCustomContext()
   showMessage = ({ message, open = true }) => {
-    setMessage(message)
-    setOpen(open)
-  }
-  if (!c.showMessage) {
-    setC({
-      showMessage: ({ message, open = true }) => {
-        setMessage(message)
-        setOpen(open)
+    setCon({
+      message: {
+        open,
+        msg: message,
       }
     })
   }
+  useEffect(() => {
+    setCon({
+      message: {
+        open: false,
+        msg: '',
+      },
+      showMessage,
+    })
+  }, [])
+  const { open, msg } = message
 
   return <Snackbar open={open}
-                   message={message}
+                   message={msg}
                    autoHideDuration={1000}
-                   onClose={() => setOpen(false)}
+                   onClose={() => setCon({
+                     message: {
+                       open: false
+                     }
+                   })}
   />
 }
 
 export default {
   CreateMessageObj,
-  showMessage,
 }

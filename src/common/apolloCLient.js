@@ -1,5 +1,5 @@
 import React from 'react'
-import ApolloClient from './apploClientBoost'
+import ApolloClient from './apolloClientBoost'
 import { ApolloProvider } from 'react-apollo'
 import { getToken, setToken } from '@/common/token'
 import history from '@/common/history'
@@ -8,6 +8,7 @@ import { showMessage } from '@/component/Message'
 export let client
 
 export const wrapperApollo = (el) => {
+  // const { showMessage } = con
 
   const omitTypename = (key, value) => {
     return key === '__typename' ? undefined : value

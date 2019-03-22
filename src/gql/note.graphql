@@ -1,0 +1,40 @@
+#import "./book.graphql"
+
+fragment noteF on Note {
+    id
+    name
+    title
+    code
+    type
+    content
+    createDate
+    modifyDate
+    message
+    bookId
+}
+
+mutation updateNote($data: NoteInput!){
+    updateNote(data: $data) {
+        ... noteF
+    }
+}
+
+mutation deleteOneNote($id: String!){
+    deleteOneNote(id: $id)
+}
+
+query oneNote($id: String!){
+    oneNote(id: $id) {
+        ... noteF
+    }
+}
+
+query allNote($data: NoteInput){
+    allNote(data: $data) {
+        ... noteF
+        book {
+            ... bookF
+        }
+    }
+}
+

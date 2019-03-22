@@ -8,6 +8,8 @@ export const logout = () => {
 }
 
 export const login = async (data) => {
+  // const [con] = useCustomContext()
+  // const { showMessage } = con
   const { data: res } = await api.login(data)
   if (res.data) {
     setToken(res.token)

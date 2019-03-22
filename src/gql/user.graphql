@@ -9,10 +9,14 @@ mutation updateUserAuth($id: String!, $auth: String!){
     updateUserAuth(id: $id, auth: $auth)
 }
 
-mutation updateUser($user: UserInput!){
-    updateUser(user: $user) {
+mutation updateUser($data: UserInput!){
+    updateUser(data: $data) {
         ... userF
     }
+}
+
+mutation deleteOneUser($id: String!){
+    deleteOneUser(id: $id)
 }
 
 query oneUser($id: String!){
@@ -22,7 +26,7 @@ query oneUser($id: String!){
 }
 
 query allUser{
-    user {
+    allUser {
         ... userF
     }
 }
