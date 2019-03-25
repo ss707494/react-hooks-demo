@@ -52,6 +52,9 @@ export const DictList = p => {
     name: 'createDate',
     formatData: data => format(new Date(data), 'yyyy/MM/dd HH:mm')
   }]
+  const formColumn = [[
+      'title'
+  ]]
   return BasicTable({
     queryListGql: allNote,
     deleteGql: deleteOneNote,
@@ -59,7 +62,8 @@ export const DictList = p => {
     dataListName: 'allNote',
     editType,
     columns,
-    dealEditData: data => omit(data, 'book')
+    dealEditData: data => omit(data, 'book'),
+    formColumn,
   })(p);
 }
 

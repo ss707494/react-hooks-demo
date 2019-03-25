@@ -9,18 +9,17 @@ import { queryGraphql, mutationGraphql } from '@/component/ApolloQuery'
 import Button from "@material-ui/core/es/Button/Button"
 import { useCustomContext } from '@/common/context'
 import { EditDialog, initState } from '@/component/EditDialog'
+import { SearchForm, initState as initSearchFormState } from '@/component/SearchForm'
 import { S } from './style'
 
 export const BasicTable = (option) => p => {
   const [con] = useCustomContext()
   const [getData, { [option.dataListName]: dataList = [] }] = queryGraphql(option.queryListGql)
   const [deleteOne] = mutationGraphql(option.deleteGql)
+  const searchFormState = initSearchFormState()
+  const getListData = () => getData({ data: searchFormState.formData })
   useEffect(() => {
-    getData({
-      data: {
-        title: '第一章'
-      }
-    })
+    getListData()
   }, [])
   const editDialogState = initState()
   const { editClick } = editDialogState
@@ -28,11 +27,20 @@ export const BasicTable = (option) => p => {
   const columns = option.columns
   return <>
     <S.TableSection>
-      <header>
+      <S.Header>
         <Button variant="outlined"
                 onClick={editClick({})}
         >add</Button>
-      </header>
+        {
+          option.formColumn && <>
+            <SearchForm
+                formColumn={option.formColumn}
+                onSubmit={getListData}
+                {...searchFormState} />
+            <Button onClick={getListData}>search</Button>
+          </>
+        }
+      </S.Header>
       <Table>
         <TableHead>
           <TableRow>
@@ -63,7 +71,7 @@ export const BasicTable = (option) => p => {
                                   await deleteOne({
                                     id: item.id
                                   })
-                                  getData()
+                                  getListData()
                                 }
                               });
                             }}
@@ -75,7 +83,7 @@ export const BasicTable = (option) => p => {
         </TableBody>
       </Table>
     </S.TableSection>
-    <EditDialog refetch={getData}
+    <EditDialog refetch={getListData}
                 editType={editType}
                 updateSchema={option.updateGql}
                 dealEditData={option.dealEditData}

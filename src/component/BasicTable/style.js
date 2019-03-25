@@ -6,3 +6,7 @@ export const S = {}
 S.TableSection = styled(Paper)`
   padding: 10px;
 `
+
+S.Header = styled('header')`
+  display: flex;
+`
