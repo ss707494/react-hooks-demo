@@ -36,5 +36,6 @@ query allNote($data: NoteInput){
             ... bookF
         }
     }
+    total: totalNote(data: $data)
 }
 

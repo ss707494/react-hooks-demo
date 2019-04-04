@@ -1,11 +1,16 @@
 import React, { useState } from 'react'
-import TextField from "@material-ui/core/TextField"
+import styled from 'styled-components'
 import FormControl from '@material-ui/core/FormControl'
-import MenuItem from '@material-ui/core/MenuItem'
-import InputLabel from '@material-ui/core/InputLabel'
-import Select from '@material-ui/core/Select'
-import { MuiPickersUtilsProvider, DatePicker } from 'material-ui-pickers'
-import DateFnsUtils from '@date-io/date-fns'
+import { getFormItem } from '@/component/Form'
+
+const S = {
+  FormControl: styled(FormControl)`
+    &&& {
+      min-width: 120px;
+      margin-left: 20px;
+    }
+`
+}
 
 export const initState = () => {
   const [formData, setFormData] = useState({})
@@ -22,67 +27,28 @@ export const SearchForm = (
       onSubmit= () => {},
     }) => {
   return (
-      <form onSubmit={onSubmit}>
+      <form onSubmit={e => {
+        e.preventDefault()
+        onSubmit()
+      }}>
         {
           formColumn.map(item => {
-            const [name] = item
+            const [name, type, options] = item
             return (
-                <FormControl key={`SearchForm${name}`}>
+                <S.FormControl key={`SearchForm${name}`}>
                   {
                     getFormItem({
                       name,
-                      formData,
-                      setFormData,
+                      type,
+                      options,
+                      editData: formData,
+                      setEditData: setFormData,
                     })
                   }
-                </FormControl>
+                </S.FormControl>
             );
           })
         }
       </form>
   )
-}
-
-const getFormItem = (option) => {
-  const { name, type, formData, setFormData, options = [] } = option
-
-  if (type === 'Select') {
-    return <>
-      <InputLabel shrink={formData[name]}>{name}</InputLabel>
-      <Select
-          value={formData[name]}
-          onChange={e => setFormData({
-            [name]: e.target.value
-          })}
-      >
-        {
-          options.map(([value, text]) => <MenuItem key={value}
-                                                   value={value}>{text}</MenuItem>)
-        }
-      </Select>
-    </>
-  }
-  if (type === 'DatePicker') {
-    return <MuiPickersUtilsProvider utils={DateFnsUtils}>
-      <DatePicker
-          label={name}
-          value={formData[name]}
-          onChange={e => {
-            return setFormData({
-              [name]: e
-            })
-          }}
-      />
-    </MuiPickersUtilsProvider>
-  }
-  return <TextField
-      label={name}
-      value={formData[name] || ''}
-      multiline={option.multiline}
-      rows={option.rows}
-      onChange={e => setFormData({
-        [name]: e.target.value
-      })}
-  />
-
 }

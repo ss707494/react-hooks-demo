@@ -4,14 +4,9 @@ import Dialog from "@material-ui/core/Dialog"
 import DialogTitle from "@material-ui/core/DialogTitle"
 import DialogActions from "@material-ui/core/DialogActions"
 import DialogContent from "@material-ui/core/DialogContent"
-import TextField from "@material-ui/core/TextField"
 import FormControl from '@material-ui/core/FormControl'
-import MenuItem from '@material-ui/core/MenuItem'
-import InputLabel from '@material-ui/core/InputLabel'
-import Select from '@material-ui/core/Select'
-import { MuiPickersUtilsProvider, DatePicker } from 'material-ui-pickers'
-import DateFnsUtils from '@date-io/date-fns'
 import { mutationGraphql } from '@/component/ApolloQuery'
+import { getFormItem } from '@/component/Form'
 
 export const initState = () => {
   const [showEdit, setShowEdit] = useState(false)
@@ -36,7 +31,6 @@ export const EditDialog = (
       editData, setShowEdit,
       dealEditData = data => data
     }) => {
-  const setEdit = (data) => setEditData({ ...editData, ...data })
   const [update, , loading] = mutationGraphql(updateSchema)
 
   return (
@@ -56,7 +50,6 @@ export const EditDialog = (
                         getFormItem({
                           ...item,
                           editData,
-                          setEdit,
                           setEditData,
                         })
                       }
@@ -82,46 +75,3 @@ export const EditDialog = (
   )
 }
 
-const getFormItem = (option) => {
-  const { name, type, editData, setEdit, options = [] } = option
-
-  if (type === 'Select') {
-    return <>
-      <InputLabel shrink={editData[name]}>{name}</InputLabel>
-      <Select
-          value={editData[name]}
-          onChange={e => setEdit({
-            [name]: e.target.value
-          })}
-      >
-        {
-          options.map(([value, text]) => <MenuItem key={value}
-                                                   value={value}>{text}</MenuItem>)
-        }
-      </Select>
-    </>
-  }
-  if (type === 'DatePicker') {
-    return <MuiPickersUtilsProvider utils={DateFnsUtils}>
-      <DatePicker
-          label={name}
-          value={editData[name]}
-          onChange={e => {
-            return setEdit({
-              [name]: e
-            })
-          }}
-      />
-    </MuiPickersUtilsProvider>
-  }
-  return <TextField
-      label={name}
-      value={editData[name] || ''}
-      multiline={option.multiline}
-      rows={option.rows}
-      onChange={e => setEdit({
-        [name]: e.target.value
-      })}
-  />
-
-}

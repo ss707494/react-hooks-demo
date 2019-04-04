@@ -4,7 +4,7 @@ import { format } from 'date-fns'
 import { BasicTable } from '@/component/BasicTable'
 import { queryGraphql } from '@/component/ApolloQuery'
 import { omit } from '@/common/utils'
-import { allNote, updateNote, deleteOneNote} from '@/gql/note.graphql'
+import { allNote, updateNote, deleteOneNote, } from '@/gql/note.graphql'
 import { allBook } from '@/gql/book.graphql'
 
 
@@ -54,6 +54,8 @@ export const DictList = p => {
   }]
   const formColumn = [[
       'title'
+  ], [
+      'bookId', 'Select', options
   ]]
   return BasicTable({
     queryListGql: allNote,

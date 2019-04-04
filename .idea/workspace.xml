@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18b73184-7c16-4ef6-8cc9-f680bfa41657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/SearchForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Form/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Pagination/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/BasicTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BasicTable/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/BasicTable/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BasicTable/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/EditDialog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/EditDialog/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/SearchForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/SearchForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gql/book.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/gql/book.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gql/dict.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/gql/dict.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gql/note.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/gql/note.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gql/user.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/gql/user.graphql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Note/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Note/List/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,13 +32,10 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/component/BasicTable/index.js">
+            <entry file="file://$PROJECT_DIR$/src/views/Note/List/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-                  <folding>
-                    <element signature="e#0#40#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="-528">
+                  <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
                 </state>
               </provider>
             </entry>
@@ -43,13 +45,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/component/SearchForm/index.js">
+            <entry file="file://$PROJECT_DIR$/src/component/BasicTable/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="346">
+                  <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
                 </state>
               </provider>
             </entry>
@@ -60,7 +59,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hooks</find>
       <find>省得浪费空间水电费</find>
       <find>Style</find>
       <find>useCustomContext</find>
@@ -90,6 +88,7 @@
       <find>editData</find>
       <find>EditData</find>
       <find>setEdit</find>
+      <find>shrink</find>
     </findStrings>
     <replaceStrings>
       <replace>S</replace>
@@ -110,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/gql/user.gql" />
         <option value="$PROJECT_DIR$/config-overrides.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/graphql.schema.json" />
@@ -138,10 +135,8 @@
         <option value="$PROJECT_DIR$/src/views/TestHooks/demo.js" />
         <option value="$PROJECT_DIR$/src/common/context/index.js" />
         <option value="$PROJECT_DIR$/src/component/Message/index.js" />
-        <option value="$PROJECT_DIR$/src/gql/user.graphql" />
         <option value="$PROJECT_DIR$/src/views/User/List/index.js" />
         <option value="$PROJECT_DIR$/src/component/ApolloQuery/index.js" />
-        <option value="$PROJECT_DIR$/src/gql/dict.graphql" />
         <option value="$PROJECT_DIR$/src/views/Dict/List/index.js" />
         <option value="$PROJECT_DIR$/../graphql/src/schema/note.graphql" />
         <option value="$PROJECT_DIR$/src/views/Note/index.js" />
@@ -154,13 +149,17 @@
         <option value="$PROJECT_DIR$/src/views/TestHooks/index.js" />
         <option value="$PROJECT_DIR$/src/common/apolloCLient.js" />
         <option value="$PROJECT_DIR$/src/common/utils.js" />
-        <option value="$PROJECT_DIR$/src/component/EditDialog/index.js" />
-        <option value="$PROJECT_DIR$/src/gql/book.graphql" />
-        <option value="$PROJECT_DIR$/src/gql/note.graphql" />
-        <option value="$PROJECT_DIR$/src/views/Note/List/index.js" />
         <option value="$PROJECT_DIR$/src/component/BasicTable/style.js" />
-        <option value="$PROJECT_DIR$/src/component/SearchForm/index.js" />
+        <option value="$PROJECT_DIR$/src/component/EditDialog/index.js" />
         <option value="$PROJECT_DIR$/src/component/BasicTable/index.js" />
+        <option value="$PROJECT_DIR$/src/gql/note.graphql" />
+        <option value="$PROJECT_DIR$/src/gql/dict.graphql" />
+        <option value="$PROJECT_DIR$/src/gql/user.graphql" />
+        <option value="$PROJECT_DIR$/src/gql/book.graphql" />
+        <option value="$PROJECT_DIR$/src/component/Pagination/index.js" />
+        <option value="$PROJECT_DIR$/src/component/SearchForm/index.js" />
+        <option value="$PROJECT_DIR$/src/component/Form/index.js" />
+        <option value="$PROJECT_DIR$/src/views/Note/List/index.js" />
       </list>
     </option>
   </component>
@@ -190,10 +189,10 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="46" />
-    <option name="y" value="7" />
-    <option name="width" value="1319" />
-    <option name="height" value="715" />
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -202,103 +201,11 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="BasicTable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="EditDialog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchForm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Note" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Note" type="462c0819:PsiDirectoryNode" />
-              <item name="List" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="disabled" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -311,14 +218,14 @@
     <property name="ejs.open.delimiter" value="&lt;%" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.8.0" />
     <property name="jsgraphql-schema-editor-notification" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="E:\ss_code\react-hooks-demo\node_modules\eslint" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="E:\ss_code\react-hooks-demo\node_modules\eslint" />
     <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -327,20 +234,20 @@
     <property name="nodejs_package_manager_path" value="$USER_HOME$/AppData/Roaming/npm/node_modules/yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\ss_code\react-hooks-demo\node_modules\prettier" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\ss_code\react-hooks-demo\src\component\BasicTable" />
-      <recent name="E:\ss_code\react-hooks-demo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ss_code\react-hooks-demo\src\component" />
       <recent name="E:\ss_code\react-hooks-demo\src\gql" />
       <recent name="E:\ss_code\react-hooks-demo\src\views" />
       <recent name="E:\ss_code\react-hooks-demo\src\component\BasicTable" />
       <recent name="E:\ss_code\react-hooks-demo\src\component\EditDialog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ss_code\react-hooks-demo\src\component\BasicTable" />
+      <recent name="E:\ss_code\react-hooks-demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -416,7 +323,13 @@
       <workItem from="1552556686208" duration="22061000" />
       <workItem from="1552871835486" duration="71040000" />
       <workItem from="1553130617485" duration="30214000" />
-      <workItem from="1553486197176" duration="4113000" />
+      <workItem from="1553486197176" duration="13945000" />
+      <workItem from="1553680913055" duration="598000" />
+      <workItem from="1553684805038" duration="5259000" />
+      <workItem from="1553759389906" duration="29827000" />
+      <workItem from="1554253489832" duration="599000" />
+      <workItem from="1554260967060" duration="4575000" />
+      <workItem from="1554285902230" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加用户登录">
       <created>1550730984098</created>
@@ -460,15 +373,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553217351738</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: 添加 搜索">
+      <created>1553504830326</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553504830326</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324082000" />
+    <option name="totallyTimeSpent" value="375679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1862" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" order="0" side_tool="true" weight="0.32963374" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.32963374" />
@@ -480,7 +399,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32928064" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.4326241" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4326241" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39918947" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -496,7 +415,7 @@
     <layout-to-restore>
       <window_info id="npm" order="0" side_tool="true" weight="0.32963374" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.32963374" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" type="SLIDING" visible="true" weight="0.15763813" />
+      <window_info content_ui="combo" id="Project" order="2" type="SLIDING" weight="0.15763813" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.24972253" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.42755824" />
@@ -504,13 +423,13 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32928064" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.4326241" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4326241" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39918947" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32928064" />
-      <window_info anchor="bottom" id="GraphQL" order="12" visible="true" weight="0.41438702" />
+      <window_info anchor="bottom" id="GraphQL" order="12" weight="0.41438702" />
       <window_info anchor="bottom" id="TypeScript" order="13" weight="0.32928064" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -529,24 +448,10 @@
     <MESSAGE value="feat: 添加token刷新 dict功能" />
     <MESSAGE value="feat: 添加通用组件封装" />
     <MESSAGE value="feat: note" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: note" />
+    <MESSAGE value="feat: 添加 搜索" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 添加 搜索" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/views/Dict/List/EditDialog.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/TestHooks/otherC.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/lodash/merge.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/TestHooks/demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -621,13 +526,6 @@
     <entry file="file://E:/code/ZhongfeiMice_UserCenter/FE/src/apps/exhibitor/containers/company/cardAdd.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gql/user.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/User/List/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -656,16 +554,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Dict/List/style.js" />
-    <entry file="file://$PROJECT_DIR$/src/views/Dict/List/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/User/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -683,13 +571,6 @@
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gql/dict.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -839,23 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gql/book.graphql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="329" column="40" selection-start-line="329" selection-start-column="40" selection-end-line="329" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ApolloQuery/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,58 +732,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/EditDialog/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="186">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Note/List/index.js">
+    <entry file="file://$PROJECT_DIR$/src/component/ApolloQuery/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Dict/List/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="419" column="2" selection-start-line="419" selection-start-column="2" selection-end-line="419" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gql/book.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gql/dict.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Pagination/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gql/user.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/BasicTable/style.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gql/note.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/SearchForm/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        <state relative-caret-position="627">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Form/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gql/note.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Note/List/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/BasicTable/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="346">
+          <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
         </state>
       </provider>
     </entry>

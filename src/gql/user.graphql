@@ -29,5 +29,6 @@ query allUser{
     allUser {
         ... userF
     }
+    total: totalUser
 }
 

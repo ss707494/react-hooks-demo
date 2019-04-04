@@ -23,9 +23,10 @@ query oneDict($id: String!){
     }
 }
 
-query allDict{
+query allDict($data: DictInput){
     allDict {
         ... dictF
     }
+    total: totalDict(data: $data)
 }
 

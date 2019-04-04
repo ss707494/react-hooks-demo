@@ -10,14 +10,21 @@ import Button from "@material-ui/core/es/Button/Button"
 import { useCustomContext } from '@/common/context'
 import { EditDialog, initState } from '@/component/EditDialog'
 import { SearchForm, initState as initSearchFormState } from '@/component/SearchForm'
+import { Pagination, initState as initPageData } from '@/component/Pagination'
 import { S } from './style'
 
 export const BasicTable = (option) => p => {
   const [con] = useCustomContext()
-  const [getData, { [option.dataListName]: dataList = [] }] = queryGraphql(option.queryListGql)
+  const [getData, { [option.dataListName]: dataList = [], total = 0 }] = queryGraphql(option.queryListGql)
   const [deleteOne] = mutationGraphql(option.deleteGql)
   const searchFormState = initSearchFormState()
-  const getListData = () => getData({ data: searchFormState.formData })
+  const pageState = initPageData()
+  const getListData = () => getData({
+    data: {
+      ...searchFormState.formData,
+      ...pageState.pageData,
+    },
+  })
   useEffect(() => {
     getListData()
   }, [])
@@ -82,6 +89,11 @@ export const BasicTable = (option) => p => {
           }
         </TableBody>
       </Table>
+      <Pagination
+          {...pageState}
+          count={~~total}
+          refresh={getListData}
+      />
     </S.TableSection>
     <EditDialog refetch={getListData}
                 editType={editType}
