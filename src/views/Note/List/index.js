@@ -19,7 +19,7 @@ export const DictList = p => {
   }, {
     name: 'title'
   }, {
-    name: 'code'
+    name: 'code',
   }, {
     name: 'type'
   }, {
@@ -38,7 +38,8 @@ export const DictList = p => {
   }, {
     name: 'title'
   }, {
-    name: 'code'
+    name: 'code',
+    sort: true,
   }, {
     name: 'type'
   }, {

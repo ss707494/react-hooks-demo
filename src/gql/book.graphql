@@ -24,7 +24,7 @@ query oneBook($id: String!){
 }
 
 query allBook($data: BookInput){
-    allBook {
+    allBook(data: $data) {
         ... bookF
     }
     total: totalBook(data: $data)

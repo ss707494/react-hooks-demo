@@ -1,5 +1,6 @@
 import { BasicTable } from '@/component/BasicTable'
-import { allDict, updateDict, deleteOneDict } from '@/gql/dict.graphql'
+import { format } from 'date-fns'
+import { allDict, updateDict, deleteOneDict, allDataDict } from '@/gql/dict.graphql'
 
 const editType = [{
   name: 'name'
@@ -16,19 +17,21 @@ const editType = [{
 const columns = [{
   name: 'name'
 }, {
-  name: 'code'
+  name: 'code',
+  sort: true,
 }, {
   name: 'type'
 }, {
   name: 'id'
 }, {
   name: 'date',
-  formatData: data => !data ? '' : new Date(data).toString()
+  formatData: data => format(new Date(data), 'yyyy/MM/dd HH:mm')
 }, {
   name: 'message'
 }]
 
 export const DictList = BasicTable({
+  allDataGql: allDataDict,
   queryListGql: allDict,
   deleteGql: deleteOneDict,
   updateGql: updateDict,

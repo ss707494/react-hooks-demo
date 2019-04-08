@@ -25,10 +25,10 @@ query oneUser($id: String!){
     }
 }
 
-query allUser{
-    allUser {
+query allUser($data: UserInput){
+    allUser(data: $data) {
         ... userF
     }
-    total: totalUser
+    total: totalUser(data: $data)
 }
 
