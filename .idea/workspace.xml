@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/views/Note/List/index.js" line="6" />
+    <bookmark url="file://$PROJECT_DIR$/src/views/Note/List/index.js" line="11" />
+    <bookmark url="file://$PROJECT_DIR$/src/component/Pagination/index.js" line="10" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="18b73184-7c16-4ef6-8cc9-f680bfa41657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/Form/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Pagination/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/BasicTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BasicTable/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/EditDialog/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/EditDialog/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/SearchForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/SearchForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gql/book.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/gql/book.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gql/dict.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/gql/dict.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gql/note.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/gql/note.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gql/user.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/gql/user.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Note/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Note/List/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Pagination/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Pagination/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,10 +29,13 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/views/Note/List/index.js">
+            <entry file="file://$PROJECT_DIR$/src/component/BasicTable/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-528">
-                  <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+                <state relative-caret-position="792">
+                  <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#0#40#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -45,10 +45,13 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/component/BasicTable/index.js">
+            <entry file="file://$PROJECT_DIR$/src/component/Pagination/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="346">
-                  <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+                <state relative-caret-position="132">
+                  <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#0#50#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -151,15 +154,15 @@
         <option value="$PROJECT_DIR$/src/common/utils.js" />
         <option value="$PROJECT_DIR$/src/component/BasicTable/style.js" />
         <option value="$PROJECT_DIR$/src/component/EditDialog/index.js" />
-        <option value="$PROJECT_DIR$/src/component/BasicTable/index.js" />
         <option value="$PROJECT_DIR$/src/gql/note.graphql" />
         <option value="$PROJECT_DIR$/src/gql/dict.graphql" />
         <option value="$PROJECT_DIR$/src/gql/user.graphql" />
         <option value="$PROJECT_DIR$/src/gql/book.graphql" />
-        <option value="$PROJECT_DIR$/src/component/Pagination/index.js" />
         <option value="$PROJECT_DIR$/src/component/SearchForm/index.js" />
         <option value="$PROJECT_DIR$/src/component/Form/index.js" />
         <option value="$PROJECT_DIR$/src/views/Note/List/index.js" />
+        <option value="$PROJECT_DIR$/src/component/BasicTable/index.js" />
+        <option value="$PROJECT_DIR$/src/component/Pagination/index.js" />
       </list>
     </option>
   </component>
@@ -201,7 +204,45 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="BasicTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="Pagination" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="disabled" />
@@ -329,7 +370,8 @@
       <workItem from="1553759389906" duration="29827000" />
       <workItem from="1554253489832" duration="599000" />
       <workItem from="1554260967060" duration="4575000" />
-      <workItem from="1554285902230" duration="907000" />
+      <workItem from="1554285902230" duration="1797000" />
+      <workItem from="1554366778346" duration="5996000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加用户登录">
       <created>1550730984098</created>
@@ -380,14 +422,22 @@
       <option name="project" value="LOCAL" />
       <updated>1553504830326</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: 分页">
+      <created>1554364797960</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554364797960</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="375679000" />
+    <option name="totallyTimeSpent" value="382565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1862" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" order="0" side_tool="true" weight="0.32963374" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.32963374" />
@@ -399,7 +449,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32928064" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4326241" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.4326241" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39918947" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -449,19 +499,10 @@
     <MESSAGE value="feat: 添加通用组件封装" />
     <MESSAGE value="feat: note" />
     <MESSAGE value="feat: 添加 搜索" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 添加 搜索" />
+    <MESSAGE value="feat: 分页" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 分页" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/views/TestHooks/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Comic/List/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -781,13 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Pagination/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/gql/user.graphql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -799,16 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/SearchForm/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -828,15 +852,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Note/List/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        <state relative-caret-position="264">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/SearchForm/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Pagination/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/lodash/get.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/BasicTable/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        <state relative-caret-position="792">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

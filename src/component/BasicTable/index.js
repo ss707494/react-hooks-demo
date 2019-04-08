@@ -19,10 +19,11 @@ export const BasicTable = (option) => p => {
   const [deleteOne] = mutationGraphql(option.deleteGql)
   const searchFormState = initSearchFormState()
   const pageState = initPageData()
-  const getListData = () => getData({
+  const getListData = (param = {}) => getData({
     data: {
       ...searchFormState.formData,
       ...pageState.pageData,
+      ...param,
     },
   })
   useEffect(() => {
@@ -32,6 +33,14 @@ export const BasicTable = (option) => p => {
   const { editClick } = editDialogState
   const editType = option.editType
   const columns = option.columns
+  const handleSearch = () => {
+    pageState.setPageData({
+      page: 0,
+    })
+    getListData({
+      page: 0,
+    })
+  }
   return <>
     <S.TableSection>
       <S.Header>
@@ -42,9 +51,9 @@ export const BasicTable = (option) => p => {
           option.formColumn && <>
             <SearchForm
                 formColumn={option.formColumn}
-                onSubmit={getListData}
+                onSubmit={handleSearch}
                 {...searchFormState} />
-            <Button onClick={getListData}>search</Button>
+            <Button onClick={handleSearch}>search</Button>
           </>
         }
       </S.Header>

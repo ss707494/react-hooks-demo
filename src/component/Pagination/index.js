@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { TablePagination } from '@material-ui/core'
 
 export const initState = () => {
@@ -7,7 +7,11 @@ export const initState = () => {
     rowsPerPage: 10,
   })
   return {
-    pageData, setPageData,
+    pageData,
+    setPageData: data => setPageData({
+      ...pageData,
+      ...data
+    }),
   }
 }
 
@@ -16,15 +20,9 @@ export const Pagination = (
       pageData,
       setPageData,
       count,
-      refresh = () => {},
+      refresh = () => {
+      },
     }) => {
-  const setData = data => setPageData({
-    ...pageData,
-    ...data
-  })
-  useEffect(() => {
-    refresh()
-  }, [pageData])
 
   return (
       <TablePagination
@@ -34,12 +32,16 @@ export const Pagination = (
           rowsPerPage={pageData.rowsPerPage || 10}
           page={pageData.page || 0}
           onChangePage={(e, page) => {
-            setData({
+            setPageData({
               page,
             })
+            refresh({ page })
           }}
           onChangeRowsPerPage={e => {
-            setData({
+            setPageData({
+              rowsPerPage: e.target.value
+            })
+            refresh({
               rowsPerPage: e.target.value
             })
           }}
