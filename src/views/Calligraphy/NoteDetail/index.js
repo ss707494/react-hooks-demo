@@ -14,8 +14,11 @@ export const NoteDetail = props => {
       <S.NoteDetail>
         {
           note.detailImg &&
-          <img src={note.detailImg.contentImg.src}
-               alt=""/>
+          <>
+            <header>{note.detailImg.title}</header>
+            <img src={note.detailImg.contentImg.src}
+                 alt=""/>
+          </>
         }
       </S.NoteDetail>
   )
