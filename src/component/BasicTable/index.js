@@ -38,12 +38,13 @@ export const BasicTable = (option) => p => {
   const { editClick } = editDialogState
   const editType = option.editType
   const columns = option.columns
-  const handleSearch = () => {
+  const handleSearch = param => {
     pageState.setPageData({
       page: 0,
     })
     getListData({
       page: 0,
+      ...param,
     })
   }
   return <>
@@ -62,9 +63,9 @@ export const BasicTable = (option) => p => {
           option.formColumn && <>
             <SearchForm
                 formColumn={option.formColumn}
-                onSubmit={handleSearch}
+                onSubmit={() => handleSearch()}
                 {...searchFormState} />
-            <Button onClick={handleSearch}>search</Button>
+            <Button onClick={() => handleSearch()}>search</Button>
           </>
         }
       </S.Header>
@@ -89,7 +90,7 @@ export const BasicTable = (option) => p => {
                                   [name]: -(sortData[name] || 1)
                                 }
                                 setSortData(sortDataTpl)
-                                getListData({
+                                handleSearch({
                                   sortData: sortDataTpl
                                 })
                               }}

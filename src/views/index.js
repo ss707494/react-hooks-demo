@@ -14,7 +14,7 @@ export const allRouters = importAll(require.context('./', true, /^\.\/\w*\/index
 export const routes = allRouters.map(({ props, Type, Layout }, i) => {
   return Type ? <Type {...props} key={`type${i}`}/>
       : Layout ? <Route {...props} key={`route${i}`}
-                        component={p => <Layout>
+                        component={p => <Layout {...p}>
                           <props.component {...p}/>
                         </Layout>}
           />

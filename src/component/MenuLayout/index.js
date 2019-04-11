@@ -11,6 +11,7 @@ const menuData = [
   ['book'],
   ['note'],
   ['testHooks'],
+  ['calligraphy'],
 ]
 
 export const MenuLayout = ({history, children}) => {

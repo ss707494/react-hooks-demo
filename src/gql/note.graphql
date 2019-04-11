@@ -39,3 +39,20 @@ query allNote($data: NoteInput){
     total: totalNote(data: $data)
 }
 
+query getContentImg($data: String, $option: ImgOptionInput) {
+    getContentImg(data: $data, option: $option) {
+        src
+    }
+}
+
+query detailImg($id: String!) {
+    detailImg(id: $id) {
+        ... noteF
+        book {
+            ... bookF
+        }
+        contentImg {
+            src
+        }
+    }
+}

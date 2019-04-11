@@ -37,12 +37,14 @@ export const wrapperApollo = (el) => {
   }
 
   const onError = ({ graphQLErrors, networkError }) => {
-    if (graphQLErrors)
-      graphQLErrors.map(({ message, locations, path }) =>
-          console.log(
-              `[GraphQL error]: Message: ${message}, Location: ${locations}, Path: ${path}`,
-          ),
-      );
+    if (graphQLErrors) {
+      graphQLErrors.forEach(({ message, locations, path }) => {
+        console.log(
+            `[GraphQL error]: Message: ${message}, Location: ${locations}, Path: ${path}`,
+        )
+        showMessage({ message })
+      })
+    }
 
     if (networkError) {
       console.log(`[Network error]: ${networkError.bodyText}`);

@@ -7,8 +7,6 @@ export const useCustomContext = () => useContext(context)
 
 export const wrapperContext = (el) => {
   const [cont, setContext] = useState({
-    q: '123',
-    w: '324234',
   })
 
   return (
