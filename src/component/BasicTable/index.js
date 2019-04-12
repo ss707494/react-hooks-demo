@@ -13,11 +13,11 @@ import { EditDialog, initState } from '@/component/EditDialog'
 import { SearchForm, initState as initSearchFormState } from '@/component/SearchForm'
 import { Pagination, initState as initPageData } from '@/component/Pagination'
 import { S } from './style'
-import { TableSortLabel } from "@material-ui/core";
+import { CircularProgress, TableSortLabel } from "@material-ui/core";
 
 export const BasicTable = (option) => p => {
   const [con] = useCustomContext()
-  const [getData, { [option.dataListName]: dataList = [], total = 0 }] = queryGraphql(option.queryListGql)
+  const [getData, { [option.dataListName]: dataList = [], total = 0 }, listDataLoading] = queryGraphql(option.queryListGql)
   // const [getAllData] = queryGraphql(option.allDataGql)
   const [deleteOne] = mutationGraphql(option.deleteGql)
   const searchFormState = initSearchFormState()
@@ -69,74 +69,76 @@ export const BasicTable = (option) => p => {
           </>
         }
       </S.Header>
-      <Table>
-        <TableHead>
-          <TableRow>
-            {
-              columns.map(({ name, sort }) => <TableCell
-                  key={`tableHead${name}`}
-              >
-                {!sort ? (name)
-                    : (
-                        <Tooltip
-                            title="sort"
-                        >
-                          <TableSortLabel
-                              active={true}
-                              direction={sortData[name] === -1 ? 'desc' : 'asc'}
-                              onClick={() => {
-                                const sortDataTpl = {
-                                  ...sortData,
-                                  [name]: -(sortData[name] || 1)
-                                }
-                                setSortData(sortDataTpl)
-                                handleSearch({
-                                  sortData: sortDataTpl
-                                })
-                              }}
-                          >
-                            {name}
-                          </TableSortLabel>
-                        </Tooltip>
-                    )
+      {(listDataLoading) ? <S.Loading><CircularProgress/></S.Loading>
+          : <Table>
+            <TableHead>
+              <TableRow>
+                {
+                  columns.map(({ name, sort }) => <TableCell
+                      key={`tableHead${name}`}
+                  >
+                    {!sort ? (name)
+                        : (
+                            <Tooltip
+                                title="sort"
+                            >
+                              <TableSortLabel
+                                  active={true}
+                                  direction={sortData[name] === -1 ? 'desc' : 'asc'}
+                                  onClick={() => {
+                                    const sortDataTpl = {
+                                      ...sortData,
+                                      [name]: -(sortData[name] || 1)
+                                    }
+                                    setSortData(sortDataTpl)
+                                    handleSearch({
+                                      sortData: sortDataTpl
+                                    })
+                                  }}
+                              >
+                                {name}
+                              </TableSortLabel>
+                            </Tooltip>
+                        )
+                    }
+                  </TableCell>)
                 }
-              </TableCell>)
-            }
-            <TableCell>action</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {
-            dataList.map((item) => (
-                <TableRow key={item.id}>
-                  {
-                    columns.map(({ name, path, formatData = data => data }) =>
-                        <TableCell key={`tableBody${name}`}>{formatData(get(item, (path ? path : name)))}</TableCell>)
-                  }
-                  <TableCell>
-                    <Button variant="outlined"
-                            onClick={editClick(item)}
-                    >edit</Button>
-                    <Button variant="outlined"
-                            onClick={() => {
-                              con.showConfirm({
-                                message: 'Are you sure',
-                                callBack: async res => {
-                                  if (!res) return
-                                  await deleteOne({
-                                    id: item.id
-                                  })
-                                  getListData()
-                                }
-                              });
-                            }}
-                    >del</Button>
-                  </TableCell>
-                </TableRow>
-            ))
-          }
-        </TableBody>
-      </Table>
+                <TableCell>action</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {
+                dataList.map((item) => (
+                    <TableRow key={item.id}>
+                      {
+                        columns.map(({ name, path, formatData = data => data }) =>
+                            <TableCell key={`tableBody${name}`}>{formatData(get(item, (path ? path : name)))}</TableCell>)
+                      }
+                      <TableCell>
+                        <Button variant="outlined"
+                                onClick={editClick(item)}
+                        >edit</Button>
+                        <Button variant="outlined"
+                                onClick={() => {
+                                  con.showConfirm({
+                                    message: 'Are you sure',
+                                    callBack: async res => {
+                                      if (!res) return
+                                      await deleteOne({
+                                        id: item.id
+                                      })
+                                      getListData()
+                                    }
+                                  });
+                                }}
+                        >del</Button>
+                      </TableCell>
+                    </TableRow>
+                ))
+              }
+            </TableBody>
+          </Table>
+      }
       <Pagination
           {...pageState}
           count={~~total}

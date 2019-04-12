@@ -10,3 +10,7 @@ S.TableSection = styled(Paper)`
 S.Header = styled('header')`
   display: flex;
 `
+
+S.Loading = styled('section')`
+  text-align: center;
+`

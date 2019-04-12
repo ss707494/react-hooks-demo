@@ -8,8 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="18b73184-7c16-4ef6-8cc9-f680bfa41657" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Calligraphy/NoteDetail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Calligraphy/NoteDetail/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Calligraphy/NoteDetail/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Calligraphy/NoteDetail/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BasicTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BasicTable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BasicTable/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BasicTable/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Calligraphy/NoteList/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Calligraphy/NoteList/style.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,10 +30,10 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/views/Home/index.js">
+            <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/NoteList/style.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="33">
-                  <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+                <state relative-caret-position="297">
+                  <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -44,8 +45,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/NoteDetail/style.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+                <state relative-caret-position="132">
+                  <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -128,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/common/login.js" />
         <option value="$PROJECT_DIR$/src/Routers.js" />
         <option value="$PROJECT_DIR$/src/common/utils.js" />
-        <option value="$PROJECT_DIR$/src/component/BasicTable/style.js" />
         <option value="$PROJECT_DIR$/src/component/EditDialog/index.js" />
         <option value="$PROJECT_DIR$/src/component/SearchForm/index.js" />
         <option value="$PROJECT_DIR$/src/component/Form/index.js" />
@@ -144,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/views/Calligraphy/List/index.js" />
         <option value="$PROJECT_DIR$/src/component/MenuLayout/index.js" />
         <option value="$PROJECT_DIR$/src/views/Calligraphy/Booklist/style.js" />
-        <option value="$PROJECT_DIR$/src/views/Calligraphy/NoteList/style.js" />
         <option value="$PROJECT_DIR$/src/common/context/index.js" />
         <option value="$PROJECT_DIR$/src/views/Calligraphy/index.js" />
         <option value="$PROJECT_DIR$/src/views/index.js" />
@@ -152,11 +151,13 @@
         <option value="$PROJECT_DIR$/src/views/Calligraphy/Booklist/index.js" />
         <option value="$PROJECT_DIR$/src/component/AppbarLayout/style.js" />
         <option value="$PROJECT_DIR$/src/component/AppbarLayout/index.js" />
-        <option value="$PROJECT_DIR$/src/component/BasicTable/index.js" />
         <option value="$PROJECT_DIR$/src/views/Home/index.js" />
         <option value="$PROJECT_DIR$/src/views/TestHooks/index.js" />
         <option value="$PROJECT_DIR$/src/views/Calligraphy/NoteDetail/index.js" />
         <option value="$PROJECT_DIR$/src/views/Calligraphy/NoteDetail/style.js" />
+        <option value="$PROJECT_DIR$/src/component/BasicTable/style.js" />
+        <option value="$PROJECT_DIR$/src/component/BasicTable/index.js" />
+        <option value="$PROJECT_DIR$/src/views/Calligraphy/NoteList/style.js" />
       </list>
     </option>
   </component>
@@ -199,6 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,6 +276,13 @@
               <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="BasicTable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
               <item name="MenuLayout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -337,6 +346,14 @@
               <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Calligraphy" type="462c0819:PsiDirectoryNode" />
+              <item name="NoteList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -365,7 +382,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,8 +466,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +512,8 @@
       <workItem from="1554260967060" duration="4575000" />
       <workItem from="1554285902230" duration="1797000" />
       <workItem from="1554366778346" duration="20560000" />
-      <workItem from="1554717521205" duration="27358000" />
+      <workItem from="1554717521205" duration="28745000" />
+      <workItem from="1555031825467" duration="11012000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加用户登录">
       <created>1550730984098</created>
@@ -575,11 +592,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554964797176</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: calligraphy">
+      <created>1554966393483</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554966393483</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424487000" />
+    <option name="totallyTimeSpent" value="436886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1862" height="1096" extended-state="6" />
@@ -606,7 +630,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.3299025" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.2616468" />
     </layout>
     <layout-to-restore>
       <window_info id="npm" order="0" side_tool="true" weight="0.32963374" />
@@ -618,8 +642,8 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32928064" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info active="true" anchor="bottom" id="Find" order="5" visible="true" weight="0.32928064" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.4326241" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32928064" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4326241" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39918947" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -630,7 +654,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.3299025" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.2616468" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -783,16 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/ApolloQuery/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/Message/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -833,13 +847,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/List/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/List/index.js" />
     <entry file="file://$PROJECT_DIR$/src/views/Dict/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -885,13 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/NoteList/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/context/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -901,16 +902,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/BasicLayout/index.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/BasicTable/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/icons/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -936,13 +927,6 @@
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/NoteList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -993,23 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/BasicTable/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="129" column="30" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/MenuLayout/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1040,9 +1007,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/ApolloQuery/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/NoteDetail/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/BasicTable/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/BasicTable/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/NoteDetail/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
+        <state relative-caret-position="396">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -1050,10 +1061,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/NoteDetail/style.js">
+    <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/NoteList/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/NoteList/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
