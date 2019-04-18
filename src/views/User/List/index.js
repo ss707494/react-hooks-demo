@@ -25,6 +25,12 @@ export const UserList = BasicTable({
   dataListName: 'allUser',
   editType,
   columns,
+  btns: [{
+    name: 'password',
+    handleClick: (item, { history }) => {
+      history.push(`/user/changePassword/${item.id}`)
+    }
+  }],
 })
 
 export default UserList

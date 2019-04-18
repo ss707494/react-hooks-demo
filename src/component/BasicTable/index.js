@@ -132,6 +132,15 @@ export const BasicTable = (option) => p => {
                                   });
                                 }}
                         >del</Button>
+                        {
+                          get(option, 'btns', []).map(e => (
+                              <Button
+                                  key={`btns${e.name}`}
+                                  variant="outlined"
+                                  onClick={() => e.handleClick(item, p)}
+                              >{e.name}</Button>
+                          ))
+                        }
                       </TableCell>
                     </TableRow>
                 ))

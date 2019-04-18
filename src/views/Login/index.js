@@ -50,8 +50,8 @@ const styles = theme => ({
 function SignIn(props) {
   const { classes, history } = props;
 
-  const [name, setName] = useState('admin')
-  const [password, setPassword] = useState('123456')
+  const [name, setName] = useState('')
+  const [password, setPassword] = useState('')
 
   const submit = async data => {
     if (await login(data)) {

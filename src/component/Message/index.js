@@ -26,7 +26,7 @@ export const CreateMessageObj = () => {
   const { open, msg } = message
 
   return <Snackbar open={open}
-                   message={msg}
+                   message={`${msg}`}
                    autoHideDuration={1000}
                    onClose={() => setCon({
                      message: {

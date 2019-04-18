@@ -1,0 +1,181 @@
+# This file was generated based on ".graphqlconfig". Do not edit manually.
+
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Book {
+    createDate: Date
+    id: String
+    message: String
+    modifyDate: Date
+    name: String
+}
+
+type Dict {
+    code: String
+    date: Date
+    id: String
+    message: String
+    name: String
+    type: String
+}
+
+type Img {
+    src: String
+}
+
+type ListResult {
+    dataList: [Note]
+    total: String
+}
+
+type Mutation {
+    changePassword(data: ChangePassword!): String
+    deleteOneBook(id: String!): String
+    deleteOneDict(id: String!): String
+    deleteOneNote(id: String!): String
+    deleteOneUser(id: String!): String
+    importAllBook(data: String!): String
+    importAllDict(data: String!): String
+    importAllNote(data: String!): String
+    importAllUser(data: String!): String
+    updateBook(data: BookInput!): Book
+    updateDict(data: DictInput!): Dict
+    updateNote(data: NoteInput!): Note
+    updateUser(data: UserInput!): User
+    updateUserAuth(auth: String!, id: String!): String
+}
+
+type Note {
+    book: Book
+    bookId: String
+    code: String
+    content: String
+    contentImg: Img
+    createDate: Date
+    id: String
+    message: String
+    modifyDate: Date
+    name: String
+    title: String
+    type: String
+}
+
+type PageParam {
+    page: Int
+    rowsPerPage: Int
+}
+
+type Query {
+    allBook(data: BookInput): [Book]
+    allDataBook: String
+    allDataDict: String
+    allDataNote: String
+    allDataUser: String
+    allDict(data: DictInput): [Dict]
+    allNote(data: NoteInput): [Note]
+    allUser(data: UserInput): [User]
+    countDocuments(name: String!): String
+    detailImg(id: String!): Note
+    getContentImg(data: String, option: ImgOptionInput): Img
+    getPassCode(pass: String!): String
+    oneBook(id: String!): Book
+    oneDict(id: String!): Dict
+    oneNote(id: String!): Note
+    oneUser(id: String!): User
+    totalBook(data: BookInput): Int
+    totalDict(data: DictInput): Int
+    totalNote(data: NoteInput): Int
+    totalUser(data: UserInput): Int
+    user: [User]
+}
+
+type User {
+    auth: String
+    id: String
+    message: String
+    name: String
+}
+
+input BookInput {
+    createDate: Date
+    id: String
+    message: String
+    modifyDate: Date
+    name: String
+    page: Int
+    rowsPerPage: Int
+    sortData: BookSortInput
+}
+
+input BookSortInput {
+    code: Int
+}
+
+input ChangePassword {
+    id: String
+    newPass: String
+    verification: String
+}
+
+input DictInput {
+    code: String
+    date: Date
+    id: String
+    message: String
+    name: String
+    page: Int
+    rowsPerPage: Int
+    sortData: DictSortInput
+    type: String
+}
+
+input DictSortInput {
+    code: Int
+}
+
+input ImgOptionInput {
+    fontSize: String
+    height: String
+    width: String
+}
+
+input NoteInput {
+    bookId: String
+    code: String
+    content: String
+    createDate: Date
+    id: String
+    message: String
+    modifyDate: Date
+    name: String
+    page: Int
+    rowsPerPage: Int
+    sortData: NoteSortInput
+    title: String
+    type: String
+}
+
+input NoteSortInput {
+    code: Int
+}
+
+input UserInput {
+    auth: String
+    id: String
+    message: String
+    name: String
+    page: Int
+    rowsPerPage: Int
+    sortData: UserSortInput
+}
+
+input UserSortInput {
+    code: Int
+}
+
+
+"Date custom scalar type"
+scalar Date

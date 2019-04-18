@@ -15,5 +15,10 @@ export default [{
     path: '/user/list',
     component: loadable(() => import('./List')),
   },
+},{
+  props: {
+    path: '/user/changePassword/:id',
+    component: loadable(() => import('./ChangePassword')),
+  },
 }]
 

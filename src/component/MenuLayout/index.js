@@ -6,19 +6,20 @@ import MenuItem from "@material-ui/core/es/MenuItem/MenuItem";
 import Paper from "@material-ui/core/es/Paper/Paper";
 
 const menuData = [
+  ['calligraphy'],
   ['user'],
   ['dict'],
   ['book'],
   ['note'],
   ['testHooks'],
-  ['calligraphy'],
+  ['util'],
 ]
 
 export const MenuLayout = ({history, children}) => {
 
   return (
       <S.MenuLayout>
-        <Paper elevation={3}>
+        <Paper elevation={16}>
           <MenuList>
             {
               menuData.map(([e]) => <MenuItem key={`menuitem${e}`} component={S.Link} to={`/${e}`} >

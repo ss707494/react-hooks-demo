@@ -14,6 +14,8 @@ S.MenuLayout = styled('div')`
 `
 
 S.MenuMain = styled('div')`
+ //margin: 10px;
+ //padding: 10px;
 `
 
 S.Link = styled(Link)`
