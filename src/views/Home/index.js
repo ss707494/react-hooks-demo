@@ -10,8 +10,8 @@ const Home = () => {
 export default [{
   props: {
     exact: true,
-    from: "/",
-    to: "/user/list",
+    from: '/',
+    to: '/calligraphy',
   },
   Type: Redirect
 }, {
