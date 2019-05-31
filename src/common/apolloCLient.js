@@ -22,17 +22,17 @@ export const wrapperApollo = (el) => {
       headers: {
         ...headers,
         Authorization: getToken(),
-        refreshToken: getToken('refreshToken'),
+        refreshtoken: getToken('refreshtoken'),
       }
     }));
   }
 
   const response = (res, operation) => {
     const { response: { headers } } = operation.getContext();
-    if (headers.has('refreshToken')) {
-      const { token, refreshToken } = JSON.parse(headers.get('refreshToken'))
+    if (headers.has('refreshtoken')) {
+      const { token, refreshtoken } = JSON.parse(headers.get('refreshtoken'))
       setToken(token)
-      setToken(refreshToken, 'refreshToken')
+      setToken(refreshtoken, 'refreshtoken')
     }
   }
 
