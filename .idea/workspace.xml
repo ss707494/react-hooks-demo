@@ -9,7 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="18b73184-7c16-4ef6-8cc9-f680bfa41657" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/apolloCLient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/apolloCLient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/login.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,10 +30,10 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+            <entry file="file://$PROJECT_DIR$/src/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="557" column="18" selection-start-line="557" selection-start-column="18" selection-end-line="557" selection-end-column="18" />
+                <state relative-caret-position="165">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
             </entry>
@@ -42,13 +43,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/views/Home/index.js">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/10.8.0/core-modules/_http_outgoing.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="186">
+                  <caret line="470" column="8" selection-start-line="470" selection-start-column="8" selection-end-line="470" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -57,16 +55,15 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>refreshToken</find>
-      <find>setToken</find>
-      <find>setContext(</find>
-      <find>lodash</find>
-      <find>showMessage(</find>
-      <find>useEffect(</find>
-      <find>useCustomContext(</find>
-      <find>wrapperApollo</find>
       <find>ConfirmDialog</find>
       <find>dict</find>
       <find>Dict</find>
@@ -89,6 +86,14 @@
       <find>detailImg</find>
       <find>workbox</find>
       <find>favicon</find>
+      <find>nums[i]</find>
+      <find>fuulname</find>
+      <find>Name</find>
+      <find>box-shadow</find>
+      <find>0px 2px 4px -1px rgba(0,0,0,0.2</find>
+      <find>findIndex</find>
+      <find>TreeNode</find>
+      <find>refresh_token</find>
     </findStrings>
     <replaceStrings>
       <replace>S</replace>
@@ -101,21 +106,24 @@
       <replace>formData</replace>
       <replace>FormData</replace>
       <replace>setFormData</replace>
+      <replace>item</replace>
+      <replace>indexOf</replace>
+      <replace>Node</replace>
+      <replace>refreshToken</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>E:\ss_code\react-hooks-demo\node_modules\@material-ui</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="b1084084-b536-40a3-a7ba-ce67363b3aa6" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/views/Book/index.js" />
-        <option value="$PROJECT_DIR$/src/views/Book/List/index.js" />
-        <option value="$PROJECT_DIR$/src/component/ConfirmDialog/index.js" />
-        <option value="$PROJECT_DIR$/src/common/login.js" />
-        <option value="$PROJECT_DIR$/src/Routers.js" />
-        <option value="$PROJECT_DIR$/src/common/utils.js" />
-        <option value="$PROJECT_DIR$/src/component/EditDialog/index.js" />
         <option value="$PROJECT_DIR$/src/component/SearchForm/index.js" />
         <option value="$PROJECT_DIR$/src/component/Pagination/index.js" />
         <option value="$PROJECT_DIR$/src/views/Dict/List/index.js" />
@@ -123,7 +131,6 @@
         <option value="$PROJECT_DIR$/src/gql/dict.graphql" />
         <option value="$PROJECT_DIR$/src/gql/user.graphql" />
         <option value="$PROJECT_DIR$/src/component/ApolloQuery/index.js" />
-        <option value="$PROJECT_DIR$/src/common/apolloCLient.js" />
         <option value="$PROJECT_DIR$/src/gql/note.graphql" />
         <option value="$PROJECT_DIR$/src/views/Calligraphy/List/index.js" />
         <option value="$PROJECT_DIR$/src/views/Calligraphy/Booklist/style.js" />
@@ -156,10 +163,18 @@
         <option value="$PROJECT_DIR$/src/views/User/List/index.js" />
         <option value="$PROJECT_DIR$/src/views/Util/Tool/index.js" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
-        <option value="$PROJECT_DIR$/src/views/Home/index.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/appjcm.js" />
+        <option value="$PROJECT_DIR$/src/mp3.js" />
+        <option value="$PROJECT_DIR$/src/mp.html" />
+        <option value="$PROJECT_DIR$/node_modules/@material-ui/system/es/style.js" />
+        <option value="&lt;bb6702ab-c0f2-416b-8073-d7f2476e15a0&gt;/etc/mongod.conf" />
+        <option value="&lt;bb6702ab-c0f2-416b-8073-d7f2476e15a0&gt;/etc/nginx/nginx.conf" />
+        <option value="$PROJECT_DIR$/src/views/Home/index.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="&lt;bb6702ab-c0f2-416b-8073-d7f2476e15a0&gt;/usr/ss707494/graphql-mongodb/nohup.out" />
+        <option value="$PROJECT_DIR$/src/common/apolloCLient.js" />
+        <option value="$PROJECT_DIR$/src/common/plugins/axios.js" />
       </list>
     </option>
   </component>
@@ -175,7 +190,7 @@
       <selected-paths>
         <path>
           <id value="$PROJECT_DIR$/package.json" />
-          <id value="build" />
+          <id value="start" />
         </path>
       </selected-paths>
     </layout>
@@ -189,8 +204,8 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="66" />
-    <option name="y" value="-8" />
+    <option name="x" value="46" />
+    <option name="y" value="7" />
     <option name="width" value="1319" />
     <option name="height" value="715" />
   </component>
@@ -202,6 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,16 +228,34 @@
             <path>
               <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-hooks-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-hooks-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="disabled" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -236,7 +270,7 @@
     <property name="ejs.open.delimiter" value="&lt;%" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.8.0" />
     <property name="jsgraphql-schema-editor-notification" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="E:/code/Evos3.0_docs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -256,16 +290,17 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ss_code\react-hooks-demo\src" />
+      <recent name="E:\ss_code\react-hooks-demo\src\component\BasicTable" />
+      <recent name="E:\ss_code\react-hooks-demo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ss_code\react-hooks-demo\src" />
       <recent name="E:\ss_code\react-hooks-demo\public\images" />
       <recent name="E:\ss_code\react-hooks-demo\public" />
       <recent name="E:\ss_code\react-hooks-demo\public\ss" />
       <recent name="E:\ss_code\react-hooks-demo\src\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\ss_code\react-hooks-demo\src\component\BasicTable" />
-      <recent name="E:\ss_code\react-hooks-demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -280,8 +315,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.appjcm.js">
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration name="appjcm.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="appjcm.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/src/views/Home">
       <method v="2" />
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -306,9 +344,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.appjcm.js" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +402,19 @@
       <workItem from="1555896699702" duration="3400000" />
       <workItem from="1555904311594" duration="1489000" />
       <workItem from="1555982264141" duration="1451000" />
-      <workItem from="1556068202930" duration="4557000" />
+      <workItem from="1556068202930" duration="56432000" />
+      <workItem from="1557193764907" duration="62287000" />
+      <workItem from="1557469677011" duration="2981000" />
+      <workItem from="1557472685232" duration="7848000" />
+      <workItem from="1557710950708" duration="10369000" />
+      <workItem from="1558401284772" duration="599000" />
+      <workItem from="1558495814209" duration="780000" />
+      <workItem from="1558497314305" duration="599000" />
+      <workItem from="1558512109876" duration="555000" />
+      <workItem from="1558516672446" duration="599000" />
+      <workItem from="1558918955859" duration="2820000" />
+      <workItem from="1559005136896" duration="21998000" />
+      <workItem from="1559178578051" duration="29071000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 添加用户登录">
       <created>1550730984098</created>
@@ -477,11 +528,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555580803119</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: 首页">
+      <created>1556179994731</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1556179994731</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="503935000" />
+    <option name="totallyTimeSpent" value="696316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1862" height="1096" extended-state="6" />
@@ -492,13 +550,13 @@
       <window_info content_ui="combo" id="Project" order="2" type="SLIDING" weight="0.15763813" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.24972253" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.42755824" />
+      <window_info anchor="bottom" x="74" y="23" width="1846" height="1057" id="Terminal" order="1" type="WINDOWED" visible="true" weight="0.36879432" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32953367" />
       <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.32928064" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32928064" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.4326241" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39918947" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.37588653" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -508,7 +566,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.2616468" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.2616468" />
     </layout>
     <layout-to-restore>
       <window_info id="npm" order="0" side_tool="true" weight="0.32963374" />
@@ -516,13 +574,13 @@
       <window_info content_ui="combo" id="Project" order="2" type="SLIDING" weight="0.15763813" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.24972253" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.42755824" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3910841" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32928064" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32928064" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.4326241" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39918947" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.4326241" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.37588653" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -532,7 +590,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.2616468" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.2616468" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,186 +660,87 @@
     <MESSAGE value="feat: calligraphy" />
     <MESSAGE value="feat: 修改密码" />
     <MESSAGE value="feat: app 图标" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: app 图标" />
+    <MESSAGE value="feat: 首页" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 首页" />
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>!e1.includes(e) ? [] : [
+        ...i1,
+        ...[...Array(helpObj.numObj[e] - 1).keys()].map(e2 =&gt; [...e1, ...Array(e2 + 1).fill(e)])
+      ];</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[
+          ...i.slice(0, indexOf),
+          ...i.slice(indexOf + 1)
+      ]</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>[
+          ...nums.slice(0, n - 1),
+          nums[n1],
+          ...nums.slice(n - 1, n1),
+          ...nums.slice(n1 + 1)
+      ]</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>num</expression-string>
+        <expression-string>ino.indexOf(pre[index])</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pre[index]</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>preNum</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ino.indexOf(pre[preNum + 1])</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pre.indexOf(3)</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pre.findIndex()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pre.findIndex</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pre.findIndex(val)</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>numObj[e] + 1</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/NoteList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/NoteList/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Calligraphy/NoteDetail/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/js/main.c7d202db.chunk.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Note/List/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/lodash/get.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gql/user.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/User/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Form/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Util/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphql.config.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.graphqlconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/TestHooks/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/EditDialog/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/MenuLayout/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Book/List/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/BasicTable/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/BasicTable/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/FormControl/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -810,13 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/apolloCLient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -904,16 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -974,37 +916,194 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/appjcm.js" />
     <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="557" column="18" selection-start-line="557" selection-start-column="18" selection-end-line="557" selection-end-column="18" />
+        <state relative-caret-position="165">
+          <caret line="562" column="10" selection-start-line="562" selection-start-column="10" selection-end-line="562" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/appjcm.js">
+    <entry file="file://$PROJECT_DIR$/src/common/token.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="147" column="11" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
+        <state relative-caret-position="33">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/mp3.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/styles/styled.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/styles/es/styled.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/system/es/flexbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Paper/Paper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/styles/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/styles/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/umd/material-ui.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="5285" column="4" selection-start-line="5285" selection-start-column="4" selection-end-line="5285" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Box/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Box/Box.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/system/es/shadows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/system/es/responsivePropType.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/system/es/style.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/system/css.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/system/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/system/shadows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/system/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="430">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Routers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/10.8.0/core-modules/_http_outgoing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="470" column="8" selection-start-line="470" selection-start-column="8" selection-end-line="470" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/apolloCLient.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/plugins/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

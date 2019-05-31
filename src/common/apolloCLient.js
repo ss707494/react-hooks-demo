@@ -22,7 +22,7 @@ export const wrapperApollo = (el) => {
       headers: {
         ...headers,
         Authorization: getToken(),
-        refresh_token: getToken('refresh_token'),
+        refreshToken: getToken('refreshToken'),
       }
     }));
   }
@@ -32,7 +32,7 @@ export const wrapperApollo = (el) => {
     if (headers.has('refreshToken')) {
       const { token, refreshToken } = JSON.parse(headers.get('refreshToken'))
       setToken(token)
-      setToken(refreshToken, 'refresh_token')
+      setToken(refreshToken, 'refreshToken')
     }
   }
 
